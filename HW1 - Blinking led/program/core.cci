@@ -1,0 +1,9 @@
+VERSION:3 SOURCE_TIMESTAMP:4F4A7C33
+NODE:I LEVEL:0 LINE:24 "E:\Softwares\cvavr\inc\mega16.h"
+NODE:I LEVEL:0 LINE:25 "E:\Softwares\cvavr\inc\delay.h"
+NODE:V LEVEL:0 LINE:26 "step -> R4,R5"
+NODE:F LEVEL:0 LINE:32 "wait(void)"
+NODE:F LEVEL:0 LINE:43 "blink(void)"
+NODE:F LEVEL:0 LINE:82 "ext_int0_isr(void)"
+NODE:F LEVEL:0 LINE:86 "ext_int1_isr(void)"
+NODE:F LEVEL:0 LINE:101 "main(void)"
