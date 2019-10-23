@@ -1,0 +1,42 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+freq                                                                              0x019D       4
+numberOfOverFlows                                                                 0x01A1       2
+inputCaptureData                                                                  0x01A3       2
+inputHit                                                                          0x01A5       2
+buff                                                                              0x01A7      33
+_base_y                                                                           0x01C8       4
+_lcd_x                                                                            0x01CC       1
+_lcd_y                                                                            0x01CD       1
+_lcd_maxx                                                                         0x01CE       1
+_seed                                                                             0x01CF       4
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+a                                                                                 R4,R5        2
+b                                                                                 R6,R7        2
+c                                                                                 R8,R9        2
+high                                                                              R10,R11      2
+period                                                                            R12,R13      2
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+main                                                                              0x000B6    185
+_lcd_write_nibble_G100                                                            0x0016F     20
+_lcd_write_data                                                                   0x00183     12
+lcd_gotoxy                                                                        0x0018F     17
+lcd_clear                                                                         0x001A0     14
+lcd_putchar                                                                       0x001AE     32
+lcd_puts                                                                          0x001CE     17
+lcd_init                                                                          0x001DF     46
+ftoa                                                                              0x0020D    205
+strcpyf                                                                           0x002DA     13
+ftrunc                                                                            0x002E7     49
+floor                                                                             0x00318     23
